@@ -1,2 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+}
+
+nav {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  padding: 20px;
+}
+
+#new-post {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: aqua;
+}
+
+#post-title {
+  height: 30px;
+}
+
+#post-body {
+  height: 50px;
+}
+
+input#post-title,
+textarea#post-body {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#blog-list {
+  background-color: lightblue;
 }
